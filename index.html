@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="shortcut icon"
+      href="image/Chicago_Bulls.png"
+      type="image/x-icon"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+
+    <script src="script.js"></script>
+    <title>Chicago Bulls Home</title>
+  </head>
+  <body>
+    <header id="header">
+      <button onclick="animar()" id="btn-menu">
+        <span class="linha"></span>
+        <span class="linha"></span>
+        <span class="linha"></span>
+      </button>
+      <nav id="menu">
+        <ul id="ul-menu">
+          <a href="index.html">Home</a>
+          <a href="jogos.html">Jogos</a>
+          <a href="titulos.html">Titulos</a>
+          <a href="historia.html">Historia</a>
+          <a href="contato.html">Contato</a>
+        </ul>
+      </nav>
+      <img src="image/Chicago_Bulls.png" alt="" onclick="Animacao_Bulls()" />
+    </header>
+
+    <section class="hero">
+      <div class="fundo-hero"></div>
+      <div class="txt-hero">
+        <h1>
+          Bem-vindo ao site oficial do Chicago Bulls! Descubra mais sobre nosso
+          time, jogos, títulos e história.
+        </h1>
+        <a href="sub-paginas/jogadores.html"><button>Jogadores do Bulls</button></a>
+      </div>
+    </section>
+
+    <section class="bulls-mascote"></section>
+
+    <section class="paginas">
+      <a href="jogos.html" class="pagina">
+        <div class="fundo-paginas"></div>
+
+        <div class="nome-pagina">
+          <h3>Próximos jogos e resultados do Bulls.</h3>
+          <i class="bi bi-arrow-right"></i>
+        </div>
+      </a>
+
+      <a href="sub-paginas/jogadores.html" class="pagina">
+        <div class="fundo-paginas"></div>
+
+        <div class="nome-pagina">
+          <h3>Informações sobre os atletas do Bulls.</h3>
+          <i class="bi bi-arrow-right"></i>
+        </div>
+      </a>
+
+      <a href="sub-paginas/logos.html" class="pagina">
+        <div class="fundo-paginas"></div>
+
+        <div class="nome-pagina">
+          <h3>A evolução dos logotipos do time.</h3>
+          <i class="bi bi-arrow-right"></i>
+        </div>
+      </a>
+    </section>
+
+    <section class="titulos">
+      <br />
+      <h1>Titulos</h1>
+
+      <div class="cards-titulos">
+        <article class="titulo">
+          <div class="logo-campeonato">
+            <img
+              src="https://logospng.org/download/nba/logo-nba-256.png"
+              alt=""
+            />
+          </div>
+
+          <div class="txt-titulo">
+            <h3>1991: Contra Los Angeles Lakers (4-1)</h3>
+            <a href="titulos.html" id="btn-02"
+              ><button>Ver historia do titulos</button></a
+            >
+          </div>
+        </article>
+
+        <article class="titulo">
+          <div class="logo-campeonato">
+            <img
+              src="https://logospng.org/download/nba/logo-nba-256.png"
+              alt=""
+            />
+          </div>
+
+          <div class="txt-titulo">
+            <h3>1992: Contra Portland Trail Blazers (4-2)</h3>
+            <a href="titulos.html" id="btn-02"
+              ><button>Ver historia do titulos</button></a
+            >
+          </div>
+        </article>
+
+        <article class="titulo">
+          <div class="logo-campeonato">
+            <img
+              src="https://logospng.org/download/nba/logo-nba-256.png"
+              alt=""
+            />
+          </div>
+
+          <div class="txt-titulo">
+            <h3>1993: Contra Phoenix Suns (4-2)</h3>
+            <a href="titulos.html" id="btn-02"
+              ><button>Ver historia do titulos</button></a
+            >
+          </div>
+        </article>
+
+        <article class="titulo">
+          <div class="logo-campeonato">
+            <img
+              src="https://logospng.org/download/nba/logo-nba-256.png"
+              alt=""
+            />
+          </div>
+
+          <div class="txt-titulo">
+            <h3>1996: Contra Seattle SuperSonics (4-2)</h3>
+            <a href="titulos.html" id="btn-02"
+              ><button>Ver historia do titulos</button></a
+            >
+          </div>
+        </article>
+
+        <article class="titulo">
+          <div class="logo-campeonato">
+            <img
+              src="https://logospng.org/download/nba/logo-nba-256.png"
+              alt=""
+            />
+          </div>
+
+          <div class="txt-titulo">
+            <h3>1997: Contra Utah Jazz (4-2)</h3>
+            <a href="titulos.html" id="btn-02"
+              ><button>Ver historia do titulos</button></a
+            >
+          </div>
+        </article>
+
+        <article class="titulo">
+          <div class="logo-campeonato">
+            <img
+              src="https://logospng.org/download/nba/logo-nba-256.png"
+              alt=""
+            />
+          </div>
+
+          <div class="txt-titulo">
+            <h3>1998: Contra Utah Jazz (4-2)</h3>
+            <a href="titulos.html" id="btn-02"
+              ><button>Ver historia do titulos</button></a
+            >
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="redes">
+      <h1>Siga nos nas redes sociais</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio tempore
+        neque blanditiis voluptates?
+      </p>
+      <a href=""
+        ><button><i class="bi bi-instagram"></i></button
+      ></a>
+      <a href=""
+        ><button><i class="bi bi-tiktok"></i></button
+      ></a>
+      <a href=""
+        ><button><i class="bi bi-twitter-x"></i></button
+      ></a>
+    </section>
+
+    <footer>
+      <div class="contato">
+        <h4>Contato</h4>
+        <a href="contato.html"><button>Formulario de contato</button></a>
+      </div>
+
+      <div class="categoria-base">
+        <h4>Categorias de base</h4>
+        <ul>
+          <li>Sub-13</li>
+          <li>Sub-14</li>
+          <li>Sub-15</li>
+          <li>Sub-16</li>
+          <li>Sub-17</li>
+        </ul>
+      </div>
+
+      <div class="creditos">
+        <h5>&copy;2024 Chicago Bulls.</h5>
+      </div>
+    </footer>
+  </body>
+</html>
